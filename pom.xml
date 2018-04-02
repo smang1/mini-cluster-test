@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.smang.hadoop.java</groupId>
+    <artifactId>mini-cluster-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-common</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+        <!--HDFS mini cluster dependency-->
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-hdfs</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+        <!--Hive Server 2 mini cluster dependency-->
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-hiveserver2</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-hivemetastore</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+        <!--HBase mini cluster dependency-->
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-hbase</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-yarn</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-yarn</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.sakserv</groupId>
+            <artifactId>hadoop-mini-clusters-zookeeper</artifactId>
+            <version>0.1.14</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

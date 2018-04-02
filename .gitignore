@@ -1,0 +1,7 @@
+.idea
+mini-cluster-test.iml
+target
+embedded_*
+hive_scratch_dir
+metastore_db
+*.log
